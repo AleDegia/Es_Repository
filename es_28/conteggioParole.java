@@ -10,6 +10,7 @@ public class conteggioParole {
     System.out.println("Buongiorno!"); //aggiungo messaggio benvenuto 
     System.out.println("Inserisci il testo:");
     String testo = input.nextLine();
+    int i=0;
     String[] parole = testo.split(" "); //creo un array che divide il testo
     for (String parola : parole) {
       if (mappaParole.containsKey(parola)) {
