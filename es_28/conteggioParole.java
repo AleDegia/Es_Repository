@@ -7,7 +7,6 @@ public class conteggioParole {
     Scanner input = new Scanner(System.in);
 
     Map<String, Integer> mappaParole = new HashMap<String, Integer>();
-    System.out.println("Buongiorno!"); //aggiungo messaggio benvenuto 
     System.out.println("Inserisci il testo:");
     String testo = input.nextLine();
     int i=0;
