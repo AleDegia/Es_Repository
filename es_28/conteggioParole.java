@@ -9,7 +9,7 @@ public class conteggioParole {
     Map<String, Integer> mappaParole = new HashMap<String, Integer>();
     System.out.println("Inserisci il testo:");
     String testo = input.nextLine();
-    String[] parole = testo.split(" ");
+    String[] parole = testo.split(" "); //creo un array che divide il testo
     for (String parola : parole) {
       if (mappaParole.containsKey(parola)) {
         mappaParole.put(parola, mappaParole.get(parola) + 1);
