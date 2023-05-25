@@ -23,5 +23,6 @@ public class conteggioParole {
     }
 
     input.close();
+    System.out.println("Addio");
   }
 }
